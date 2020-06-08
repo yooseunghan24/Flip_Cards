@@ -50,7 +50,7 @@ h1 {
 }
 .front {
 	background: #fff;
-	border: 1px solid #000;
+	border: 1px solid black;
 	transform: rotateY(180deg);
 	font-size: 30px;
 	display: flex;
@@ -58,8 +58,7 @@ h1 {
 	align-items: center;
 }
 .back {
-	background: green;
-	border: 1px solid #000;
+	background: url(cardback.png) no-repeat center/cover;
 }
 .card_wrap.turn .front {
 	transform: rotateY(0);
