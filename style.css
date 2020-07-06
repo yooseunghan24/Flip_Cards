@@ -1,6 +1,9 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 * { margin: 0; padding: 0; box-sizing: border-box;}
+html, body {
+	background: #f1f1f1;
+}
 .header {
 	text-align: center;
 }
@@ -9,9 +12,22 @@ h1 {
 }
 .start {
 	cursor: pointer;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	padding: 10px 20px;
+	background: #fff;
+	font-size: 20px;
+	outline: none;
+	transition: .2s;
+}
+.start:hover {
+	background: #555;
+	color: #fff;
 }
 .count {
-	font-size: 24px;
+	font-size: 30px;
+	margin-left: 50px;
+	color: blue;
 }
 .wrap {
 	width: 600px;
